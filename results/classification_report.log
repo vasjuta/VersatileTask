@@ -1,0 +1,15 @@
+Prediction accuracy on train data = 0.9669811129570007
+Prediction accuracy on CV data = 0.8333333134651184
+Classification Report:
+                     precision    recall  f1-score   support
+
+        claude_monet       0.68      0.85      0.76        20
+         frida_kahlo       1.00      0.94      0.97        31
+     jackson_pollock       0.89      1.00      0.94         8
+jose_clemente_orozco       0.78      0.93      0.85        15
+       salvador_dali       0.89      0.89      0.89        37
+     vincent_van_goh       0.72      0.52      0.60        25
+
+            accuracy                           0.84       136
+           macro avg       0.83      0.86      0.83       136
+        weighted avg       0.84      0.84      0.83       136

@@ -1,0 +1,51 @@
+Actual artist = Jose Clemente Orozco; Predicted artist = Jose Clemente Orozco; Probability = 94.62%
+Actual artist = Jose Clemente Orozco; Predicted artist = Jose Clemente Orozco; Probability = 75.54%
+Actual artist = Jose Clemente Orozco; Predicted artist = Jose Clemente Orozco; Probability = 83.60%
+Actual artist = Jose Clemente Orozco; Predicted artist = Jose Clemente Orozco; Probability = 79.72%
+Actual artist = Jose Clemente Orozco; Predicted artist = Jose Clemente Orozco; Probability = 96.54%
+Actual artist = Jose Clemente Orozco; Predicted artist = Jose Clemente Orozco; Probability = 91.60%
+Actual artist = Jose Clemente Orozco; Predicted artist = Jose Clemente Orozco; Probability = 91.31%
+
+Actual artist = Claude Monet; Predicted artist = Claude Monet; Probability = 85.33%
+Actual artist = Claude Monet; Predicted artist = Claude Monet; Probability = 58.41%
+Actual artist = Claude Monet; Predicted artist = Claude Monet; Probability = 89.05%
+Actual artist = Claude Monet; Predicted artist = Vincent Van Goh; Probability = 60.16%
+Actual artist = Claude Monet; Predicted artist = Claude Monet; Probability = 99.68%
+Actual artist = Claude Monet; Predicted artist = Claude Monet; Probability = 95.59%
+Actual artist = Claude Monet; Predicted artist = Claude Monet; Probability = 91.87%
+
+Actual artist = Salvador Dali; Predicted artist = Salvador Dali; Probability = 80.87%
+Actual artist = Salvador Dali; Predicted artist = Salvador Dali; Probability = 80.63%
+Actual artist = Salvador Dali; Predicted artist = Salvador Dali; Probability = 86.94%
+Actual artist = Salvador Dali; Predicted artist = Salvador Dali; Probability = 76.81%
+Actual artist = Salvador Dali; Predicted artist = Vincent Van Goh; Probability = 31.30%
+Actual artist = Salvador Dali; Predicted artist = Salvador Dali; Probability = 94.06%
+Actual artist = Salvador Dali; Predicted artist = Vincent Van Goh; Probability = 37.11%
+Actual artist = Salvador Dali; Predicted artist = Salvador Dali; Probability = 53.02%
+
+Actual artist = Vincent Van Goh; Predicted artist = Vincent Van Goh; Probability = 90.73%
+Actual artist = Vincent Van Goh; Predicted artist = Vincent Van Goh; Probability = 65.14%
+Actual artist = Vincent Van Goh; Predicted artist = Claude Monet; Probability = 38.75%
+Actual artist = Vincent Van Goh; Predicted artist = Vincent Van Goh; Probability = 78.17%
+Actual artist = Vincent Van Goh; Predicted artist = Vincent Van Goh; Probability = 84.59%
+Actual artist = Vincent Van Goh; Predicted artist = Vincent Van Goh; Probability = 77.24%
+Actual artist = Vincent Van Goh; Predicted artist = Vincent Van Goh; Probability = 91.74%
+Actual artist = Vincent Van Goh; Predicted artist = Vincent Van Goh; Probability = 97.32%
+
+Actual artist = Frida Kahlo; Predicted artist = Claude Monet; Probability = 54.34%
+Actual artist = Frida Kahlo; Predicted artist = Frida Kahlo; Probability = 71.08%
+Actual artist = Frida Kahlo; Predicted artist = Claude Monet; Probability = 49.06%
+Actual artist = Frida Kahlo; Predicted artist = Claude Monet; Probability = 37.48%
+Actual artist = Frida Kahlo; Predicted artist = Frida Kahlo; Probability = 31.70%
+Actual artist = Frida Kahlo; Predicted artist = Jose Clemente Orozco; Probability = 72.78%
+Actual artist = Frida Kahlo; Predicted artist = Frida Kahlo; Probability = 34.58%
+Actual artist = Frida Kahlo; Predicted artist = Claude Monet; Probability = 29.86%
+
+Actual artist = Jackson Pollock; Predicted artist = Claude Monet; Probability = 42.63%
+Actual artist = Jackson Pollock; Predicted artist = Vincent Van Goh; Probability = 65.72%
+Actual artist = Jackson Pollock; Predicted artist = Claude Monet; Probability = 45.57%
+Actual artist = Jackson Pollock; Predicted artist = Jackson Pollock; Probability = 45.51%
+Actual artist = Jackson Pollock; Predicted artist = Jackson Pollock; Probability = 49.45%
+Actual artist = Jackson Pollock; Predicted artist = Jackson Pollock; Probability = 44.14%
+Actual artist = Jackson Pollock; Predicted artist = Jackson Pollock; Probability = 89.92%
+

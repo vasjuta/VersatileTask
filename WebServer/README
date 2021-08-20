@@ -1,0 +1,11 @@
+1. Install (python3.7+)
+   pip3 install sanic==21.3.4
+
+2. Run API
+   python3 main.py
+
+3. Use API
+   curl -XPOST localhost:4040/hello
+
+   curl -XPOST localhost:4040/classify_artist -d '{"painting": "https://uploads7.wikiart.org/images/jose-clemente-orozco/modern-migration-of-the-spirit-the-epic-of-american-civilization-1934.jpg!Large.jpg"}'
+
