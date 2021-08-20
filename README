@@ -48,13 +48,13 @@ error handling, logging, proper testing, documentation, comments, refactoring, g
 Approximate effort time splits are as follows:
 
 * Research - 3-4 hours
-* Implementation - 3-4 hours
+* Implementation - 4-5 hours
 * Model training [on local CPU] - 40-70 mins * 4-5 times - 1-2 hours of net time (was paralleled with other work)
 * API + testing - 1-2 hours
 * Debugging, installations, tensorflow glitches, etc. - 2-3 hours
 * Additional data scraping - 0.5 hours
 * Writing (and editing) this README - 1-2 hours
-* Uploading everything to github - yet to come
+
 * Total - 2 full work days, plus a bit
 
 
