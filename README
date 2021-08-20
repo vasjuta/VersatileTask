@@ -1,0 +1,61 @@
+For challenge description see ./task_description
+
+Start Disclaimer:
+
+No hands-on experience in the field of CV whatsoever. All the knowledge is from ML courses I took years ago.
+Thus some significant time (see further) was spent on at least shallow research.
+The sources that were most helpful are listed in ./research_resources
+The presented MVP project is a quick compilation of ideas and solutions found in those resources.
+It is neither complete, nor the most efficient but it does provides surprisingly decent results.
+
+Brief solution description:
+
+The given dataset of 54 paintings (9 per each of 6 artists) doesn't allow any ML solution to be proposed.
+There may be some advanced techniques from the Few-Shot Learning but it was out of scope time and effort-wise.
+Thus, an additional data was collected. Overall, 515 images spread somewhat equally between 6 artists in question.
+Keras ImageDataGenerator was used for data augmentation.
+This was enough for a good baseline model which showed 97% and 83% accuracy at training and cross-validation respectively.
+(See further for more on results).
+
+The solution is based on CNN approach with ResNet50 being a pretrained architecture.
+There was no time to play with all the [hyper]parameters so I went with the baseline solution from one of the above mentioned resources.
+However, small tweaks have to be made, like number of epochs to reduce computation time,
+and batch size to adjust to (still) relatively small dataset. Obviously, there is a huge room for improvement there.
+Train/Validation split was 75/25, again, to compensate for the size of data with regard to validation.
+We hurt training but have better (=larger) validation dataset. From a few tries I had, it paid off.
+
+Results:
+See /Results directory.
+classification_report.log - classification report for training/validation
+Figure_1.png - training/validation accuracy/loss plots
+confusion_matrix.png - classification confusion matrix
+sample_batch_classification.txt - predictions, true labels, and probabilities for 45 random paintings
+
+API:
+Sanic framework/server was chosen to implement this functionality end to end.
+It is very simple and quickly to develop and set up. See README under /WebServer
+WebServer/main.py contains the endpoints (the asked for + /hello) which call ClassifierAPI methods.
+The latter serves as facade to ClassificationEngine.py which does all the work (training, testing, inference)
+A screenshot of a sample API call via postman can be found at /results/api_call_postman.png
+NB Since no spec for request format was provided, I went with the easiest (both for the development and a potential user) option -
+a painting to classify is given by URL.
+
+End Disclaimer:
+The solution is a two days project in a [partially] new domain and as such lacks many [usual in another setting] things.
+Those include:
+error handling, logging, proper testing, documentation, comments, refactoring, generalization, configs, project hierarchy, and so forth.
+
+Approximate effort time splits are as follows:
+* Research - 3-4 hours
+* Implementation - 3-4 hours
+* Model training [on local CPU] - 40-70 mins * 4-5 times - 1-2 hours of net time (can be paralleled with other work)
+* API + testing - 1-2 hours
+* Debugging, installations, tensorflow glitches, etc. - 2-3 hours
+* Additional data scraping - 0.5 hours
+* Writing this README - 1 hour
+* Uploading everything to github - yet to come
+* Total - 2 full work days, maybe more
+
+
+
+

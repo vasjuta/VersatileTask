@@ -1,0 +1,15 @@
+Machine Learning Task
+The goal of this task is to rapidly research, build, and deploy a machine learning system
+that identifies which artist a work of art belongs to.
+You’re given a dataset consisting of 9 works of art for each of 6 different artists.
+For this task, we’d like to see you write production-ready code to develop the model,
+evaluate its performance, and make your model optimize for production.
+Lastly, Build a simple API endpoint that outputs your prediction result in JSON format.
+(example: { confidence: "44%", prediction: "Claude de Monet" }) the API
+will receive the params through a request (example body: { artwork: "..."}) the
+artwork.
+
+You can download the dataset here.
+Feel free to use external resources. Please cite the codebase or paper you used.
+
+Note: The data is not representing any information about any industry or versatile client’s data.
